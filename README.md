@@ -89,7 +89,7 @@
 **1. Клонировать репозиторий**
 
 ```bash
-git clone https://github.com/ВАШ_ЛОГИН/EmployeeMonitor.git
+git clone https://github.com/Vilt01/client-server-work-monitoring.git
 cd EmployeeMonitor
 ```
 
@@ -153,20 +153,6 @@ taskkill /IM EmployeeMonitor.Client.exe /F
 **9. Остановить сервер**
 
 В терминале №1 — `Ctrl+C`.
-
-## 📸 Скриншоты
-
-### 1. Главная страница — список клиентов
-
-![Главная страница](Screenshots/main-page.png)
-
-### 2. Запрос и получение скриншота
-
-![Скриншот клиента](Screenshots/screenshot.png)
-
-### 3. Логи клиента
-
-![Логи клиента](Screenshots/client-log.png)
 
 ## ⚙️ Настройка порта
 
