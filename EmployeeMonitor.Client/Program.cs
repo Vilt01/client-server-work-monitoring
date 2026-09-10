@@ -9,14 +9,6 @@ internal static class Program
 {
     private static async Task Main()
     {
-        // Single instance — не даём запустить второй экземпляр
-        using var mutex = new Mutex(true, "Global\\EmployeeMonitorClient", out bool isNew);
-        if (!isNew)
-        {
-            Logger.Info("Another instance is already running. Exiting.");
-            return;
-        }
-
         try
         {
             var settings = LoadSettings();
@@ -26,14 +18,18 @@ internal static class Program
             var exePath = Environment.ProcessPath ?? "EmployeeMonitor.Client.exe";
             IStartupService startup = new StartupService(exePath);
             ISystemInfoService systemInfo = new SystemInfoService();
-            IScreenCaptureService screenCapture = new ScreenCaptureService();
             IServerApiClient api = new ServerApiClient(settings.ServerUrl);
-            IMonitoringService monitoring = new MonitoringService(api, systemInfo, screenCapture, settings);
+            IMonitoringService monitoring = new MonitoringService(api, systemInfo, settings);
 
             startup.EnsureRegistered();
 
+            // Обработка Ctrl+C и закрытия процесса
             using var cts = new CancellationTokenSource();
-            await monitoring.RunAsync(cts.Token);
+            Console.CancelKeyPress += (_, e) =>
+            {
+                e.Cancel = true;
+                cts.Cancel();
+            };
 
             await monitoring.RunAsync(cts.Token);
         }
@@ -51,7 +47,8 @@ internal static class Program
     private static ClientSettings LoadSettings()
     {
         var path = Path.Combine(AppContext.BaseDirectory, "client.settings.json");
-        if (!File.Exists(path)) return new ClientSettings();
+        if (!File.Exists(path))
+            return new ClientSettings();
 
         var json = File.ReadAllText(path);
         return JsonSerializer.Deserialize<ClientSettings>(
