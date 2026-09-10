@@ -36,7 +36,6 @@ public class MonitoringService : IMonitoringService
 
                 if (string.Equals(response.Command, "capture", StringComparison.OrdinalIgnoreCase))
                 {
-                    // TODO (блок 10): заменить заглушку на реальный скриншот
                     Logger.Info("Capture command received (screenshot not implemented yet).");
                 }
             }
