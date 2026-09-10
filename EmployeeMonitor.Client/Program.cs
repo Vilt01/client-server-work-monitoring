@@ -15,24 +15,29 @@ internal static class Program
             Logger.Info($"Client starting. ServerUrl={settings.ServerUrl}, PingInterval={settings.PingIntervalSeconds}s");
 
             var exePath = Environment.ProcessPath ?? "EmployeeMonitor.Client.exe";
-            Logger.Info($"ProcessPath={exePath}");
-            Logger.Info($"BaseDirectory={AppContext.BaseDirectory}");
-
             IStartupService startup = new StartupService(exePath);
             startup.EnsureRegistered();
+
+            // Временная проверка пинга
+            ISystemInfoService systemInfo = new SystemInfoService();
+            IServerApiClient api = new ServerApiClient(settings.ServerUrl);
+
+            var me = systemInfo.GetCurrent();
+            Logger.Info($"Me: {me.Domain}\\{me.Machine} ip={me.Ip} user={me.User}");
+
+            var response = await api.PingAsync(me, CancellationToken.None);
+            Logger.Info($"Ping response: {response.Command}");
 
             await Task.CompletedTask;
         }
         catch (Exception ex)
         {
-            // Если Logger не сработал — пишем напрямую в bootstrap.log
             try
             {
                 var path = Path.Combine(AppContext.BaseDirectory, "bootstrap.log");
-                File.AppendAllText(path,
-                    $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} [FATAL] {ex}\r\n\r\n");
+                File.AppendAllText(path, $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} [FATAL] {ex}\r\n\r\n");
             }
-            catch { /* совсем всё плохо — молча выходим */ }
+            catch { }
         }
     }
 

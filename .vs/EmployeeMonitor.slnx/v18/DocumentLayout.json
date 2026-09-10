@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|c:\\users\\yungl\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\employeemonitor\\employeemonitor.client\\employeemonitor.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|solutionrelative:employeemonitor.client\\employeemonitor.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2787F0D2-FDE9-7EC9-C647-E06DB0BB26F3}|EmployeeMonitor.Server\\EmployeeMonitor.Server.csproj|c:\\users\\yungl\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\employeemonitor\\employeemonitor.server\\employeemonitor.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2787F0D2-FDE9-7EC9-C647-E06DB0BB26F3}|EmployeeMonitor.Server\\EmployeeMonitor.Server.csproj|solutionrelative:employeemonitor.server\\employeemonitor.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|c:\\users\\yungl\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\employeemonitor\\employeemonitor.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|solutionrelative:employeemonitor.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|c:\\users\\yungl\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\employeemonitor\\employeemonitor.client\\client.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|solutionrelative:employeemonitor.client\\client.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|c:\\users\\yungl\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\employeemonitor\\employeemonitor.client\\employeemonitor.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|solutionrelative:employeemonitor.client\\employeemonitor.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|c:\\users\\yungl\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\employeemonitor\\employeemonitor.client\\services\\serverapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|solutionrelative:employeemonitor.client\\services\\serverapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|c:\\users\\yungl\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\employeemonitor\\employeemonitor.client\\services\\iserverapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|solutionrelative:employeemonitor.client\\services\\iserverapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|c:\\users\\yungl\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\employeemonitor\\employeemonitor.client\\services\\systeminfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|solutionrelative:employeemonitor.client\\services\\systeminfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|c:\\users\\yungl\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\employeemonitor\\employeemonitor.client\\services\\isysteminfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|solutionrelative:employeemonitor.client\\services\\isysteminfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|c:\\users\\yungl\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\employeemonitor\\employeemonitor.client\\services\\startupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|c:\\users\\yungl\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\employeemonitor\\employeemonitor.client\\infrastructure\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|solutionrelative:employeemonitor.client\\infrastructure\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|c:\\users\\yungl\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\employeemonitor\\employeemonitor.client\\client.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|solutionrelative:employeemonitor.client\\client.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B077F4A-1308-FF24-BE2D-DD5F2669BE43}|EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj|c:\\users\\yungl\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\employeemonitor\\employeemonitor.client\\models\\pingresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2787F0D2-FDE9-7EC9-C647-E06DB0BB26F3}|EmployeeMonitor.Server\\EmployeeMonitor.Server.csproj|c:\\users\\yungl\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\employeemonitor\\employeemonitor.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2787F0D2-FDE9-7EC9-C647-E06DB0BB26F3}|EmployeeMonitor.Server\\EmployeeMonitor.Server.csproj|solutionrelative:employeemonitor.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2787F0D2-FDE9-7EC9-C647-E06DB0BB26F3}|EmployeeMonitor.Server\\EmployeeMonitor.Server.csproj|c:\\users\\yungl\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\employeemonitor\\employeemonitor.server\\employeemonitor.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2787F0D2-FDE9-7EC9-C647-E06DB0BB26F3}|EmployeeMonitor.Server\\EmployeeMonitor.Server.csproj|solutionrelative:employeemonitor.server\\employeemonitor.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2787F0D2-FDE9-7EC9-C647-E06DB0BB26F3}|EmployeeMonitor.Server\\EmployeeMonitor.Server.csproj|c:\\users\\yungl\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\employeemonitor\\employeemonitor.server\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,141 +90,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Program.cs",
-              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Program.cs",
-              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Program.cs",
-              "RelativeToolTip": "EmployeeMonitor.Client\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAmwDIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T20:46:13.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EmployeeMonitor.Client.csproj",
-              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj",
-              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj",
-              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj",
-              "RelativeToolTip": "EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-10T20:49:54.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StartupService.cs",
-              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Services\\StartupService.cs",
-              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Services\\StartupService.cs",
-              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Services\\StartupService.cs",
-              "RelativeToolTip": "EmployeeMonitor.Client\\Services\\StartupService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAmwDIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T21:39:46.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IStartupService.cs",
-              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Services\\IStartupService.cs",
-              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Services\\IStartupService.cs",
-              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Services\\IStartupService.cs",
-              "RelativeToolTip": "EmployeeMonitor.Client\\Services\\IStartupService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T21:39:39.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Logger.cs",
-              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Infrastructure\\Logger.cs",
-              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Infrastructure\\Logger.cs",
-              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Infrastructure\\Logger.cs",
-              "RelativeToolTip": "EmployeeMonitor.Client\\Infrastructure\\Logger.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA4wC8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T21:39:27.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "client.settings.json",
-              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\client.settings.json",
-              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\client.settings.json",
-              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\client.settings.json",
-              "RelativeToolTip": "EmployeeMonitor.Client\\client.settings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-10T21:30:55.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PingResponse.cs",
-              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Models\\PingResponse.cs",
-              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Models\\PingResponse.cs",
-              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Models\\PingResponse.cs",
-              "RelativeToolTip": "EmployeeMonitor.Client\\Models\\PingResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T21:30:04.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ClientRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Models\\ClientRegistration.cs",
-              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Models\\ClientRegistration.cs",
-              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Models\\ClientRegistration.cs",
-              "RelativeToolTip": "EmployeeMonitor.Client\\Models\\ClientRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T21:29:56.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ClientSettings.cs",
-              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Options\\ClientSettings.cs",
-              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Options\\ClientSettings.cs",
-              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Options\\ClientSettings.cs",
-              "RelativeToolTip": "EmployeeMonitor.Client\\Options\\ClientSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T21:29:45.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Server\\wwwroot\\index.html",
-              "RelativeDocumentMoniker": "EmployeeMonitor.Server\\wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Server\\wwwroot\\index.html",
-              "RelativeToolTip": "EmployeeMonitor.Server\\wwwroot\\index.html",
-              "ViewState": "AgIAALcAAAAAAAAAAAAswMwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-09-10T21:27:49.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "EmployeeMonitor.Server.csproj",
               "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Server\\EmployeeMonitor.Server.csproj",
               "RelativeDocumentMoniker": "EmployeeMonitor.Server\\EmployeeMonitor.Server.csproj",
@@ -221,7 +107,189 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "client.settings.json",
+              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\client.settings.json",
+              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\client.settings.json",
+              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\client.settings.json",
+              "RelativeToolTip": "EmployeeMonitor.Client\\client.settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-10T21:30:55.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Program.cs",
+              "RelativeToolTip": "EmployeeMonitor.Client\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA4wDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T20:46:13.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeMonitor.Client.csproj",
+              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj",
+              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj",
+              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj",
+              "RelativeToolTip": "EmployeeMonitor.Client\\EmployeeMonitor.Client.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-10T20:49:54.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServerApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Services\\ServerApiClient.cs",
+              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Services\\ServerApiClient.cs",
+              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Services\\ServerApiClient.cs",
+              "RelativeToolTip": "EmployeeMonitor.Client\\Services\\ServerApiClient.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T21:52:33.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IServerApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Services\\IServerApiClient.cs",
+              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Services\\IServerApiClient.cs",
+              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Services\\IServerApiClient.cs",
+              "RelativeToolTip": "EmployeeMonitor.Client\\Services\\IServerApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T21:52:24.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SystemInfoService.cs",
+              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Services\\SystemInfoService.cs",
+              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Services\\SystemInfoService.cs",
+              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Services\\SystemInfoService.cs",
+              "RelativeToolTip": "EmployeeMonitor.Client\\Services\\SystemInfoService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T21:52:16.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISystemInfoService.cs",
+              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Services\\ISystemInfoService.cs",
+              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Services\\ISystemInfoService.cs",
+              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Services\\ISystemInfoService.cs",
+              "RelativeToolTip": "EmployeeMonitor.Client\\Services\\ISystemInfoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T21:52:04.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StartupService.cs",
+              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Services\\StartupService.cs",
+              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Services\\StartupService.cs",
+              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Services\\StartupService.cs",
+              "RelativeToolTip": "EmployeeMonitor.Client\\Services\\StartupService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T21:39:46.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IStartupService.cs",
+              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Services\\IStartupService.cs",
+              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Services\\IStartupService.cs",
+              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Services\\IStartupService.cs",
+              "RelativeToolTip": "EmployeeMonitor.Client\\Services\\IStartupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T21:39:39.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Infrastructure\\Logger.cs",
+              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Infrastructure\\Logger.cs",
+              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Infrastructure\\Logger.cs",
+              "RelativeToolTip": "EmployeeMonitor.Client\\Infrastructure\\Logger.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA4wC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T21:39:27.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PingResponse.cs",
+              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Models\\PingResponse.cs",
+              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Models\\PingResponse.cs",
+              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Models\\PingResponse.cs",
+              "RelativeToolTip": "EmployeeMonitor.Client\\Models\\PingResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T21:30:04.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "ClientRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Models\\ClientRegistration.cs",
+              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Models\\ClientRegistration.cs",
+              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Models\\ClientRegistration.cs",
+              "RelativeToolTip": "EmployeeMonitor.Client\\Models\\ClientRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T21:29:56.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClientSettings.cs",
+              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Options\\ClientSettings.cs",
+              "RelativeDocumentMoniker": "EmployeeMonitor.Client\\Options\\ClientSettings.cs",
+              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Client\\Options\\ClientSettings.cs",
+              "RelativeToolTip": "EmployeeMonitor.Client\\Options\\ClientSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T21:29:45.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Server\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "EmployeeMonitor.Server\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Server\\wwwroot\\index.html",
+              "RelativeToolTip": "EmployeeMonitor.Server\\wwwroot\\index.html",
+              "ViewState": "AgIAALcAAAAAAAAAAAAswMwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-09-10T21:27:49.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ClientsController.cs",
               "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Server\\Controllers\\ClientsController.cs",
               "RelativeDocumentMoniker": "EmployeeMonitor.Server\\Controllers\\ClientsController.cs",
@@ -234,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Server\\appsettings.json",
               "RelativeDocumentMoniker": "EmployeeMonitor.Server\\appsettings.json",
@@ -247,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Server\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "EmployeeMonitor.Server\\Properties\\launchSettings.json",
@@ -260,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Server\\Program.cs",
               "RelativeDocumentMoniker": "EmployeeMonitor.Server\\Program.cs",
@@ -273,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\yungl\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\EmployeeMonitor\\EmployeeMonitor.Server\\appsettings.Development.json",
               "RelativeDocumentMoniker": "EmployeeMonitor.Server\\appsettings.Development.json",
