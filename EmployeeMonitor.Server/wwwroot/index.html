@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Employee Monitor</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            margin: 24px;
+            background: #f5f6f8;
+            color: #222;
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 22px;
+        }
+
+        .meta {
+            color: #666;
+            font-size: 13px;
+            margin-bottom: 16px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background: #fff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+
+        th, td {
+            border-bottom: 1px solid #e5e5e5;
+            padding: 10px 12px;
+            text-align: left;
+            font-size: 14px;
+            vertical-align: top;
+        }
+
+        th {
+            background: #fafafa;
+            font-weight: 600;
+            border-bottom: 2px solid #ddd;
+        }
+
+        tr:hover {
+            background: #f9f9f9;
+        }
+
+        .status-online {
+            color: #1a8f3a;
+            font-weight: 600;
+        }
+
+        .status-offline {
+            color: #999;
+        }
+
+        button {
+            padding: 5px 12px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background: #fff;
+            font-size: 13px;
+        }
+
+            button:hover {
+                background: #f0f0f0;
+            }
+
+            button:disabled {
+                opacity: 0.5;
+                cursor: default;
+            }
+
+        .screenshot-preview {
+            max-width: 480px;
+            max-height: 270px;
+            border: 1px solid #999;
+            margin-top: 8px;
+            display: block;
+        }
+
+        .empty {
+            text-align: center;
+            color: #888;
+            padding: 40px;
+            background: #fff;
+        }
+
+        .time {
+            color: #666;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Employee Monitor — подключённые клиенты</h1>
+    <div class="meta">
+        Обновление каждые 5 секунд. Всего клиентов: <span id="count">0</span>.
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Статус</th>
+                <th>Домен</th>
+                <th>Компьютер</th>
+                <th>IP</th>
+                <th>Пользователь</th>
+                <th>Последняя активность</th>
+                <th>Скриншот</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr><td colspan="7" class="empty">Загрузка...</td></tr>
+        </tbody>
+    </table>
+
+    <script>
+        const tbody = document.getElementById('tbody');
+        const countEl = document.getElementById('count');
+
+        // Относительное время: "5 сек назад", "2 мин назад" и т.п.
+        function relativeTime(iso) {
+            const diff = Math.floor((Date.now() - new Date(iso).getTime()) / 1000);
+            if (diff < 5) return 'только что';
+            if (diff < 60) return `${diff} сек назад`;
+            if (diff < 3600) return `${Math.floor(diff / 60)} мин назад`;
+            if (diff < 86400) return `${Math.floor(diff / 3600)} ч назад`;
+            return `${Math.floor(diff / 86400)} дн назад`;
+        }
+
+        function escapeHtml(s) {
+            return String(s ?? '').replace(/[&<>"']/g, c => ({
+                '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+            }[c]));
+        }
+
+        async function load() {
+            try {
+                const r = await fetch('/api/clients');
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                const list = await r.json();
+
+                countEl.textContent = list.length;
+
+                if (list.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="7" class="empty">Пока нет подключённых клиентов</td></tr>';
+                    return;
+                }
+
+                tbody.innerHTML = '';
+                for (const c of list) {
+                    const tr = document.createElement('tr');
+
+                    const statusCls = c.isOnline ? 'status-online' : 'status-offline';
+                    const statusTxt = c.isOnline ? '● online' : '○ offline';
+
+                    const machineUrl = `/api/clients/${encodeURIComponent(c.domain)}/${encodeURIComponent(c.machine)}`;
+                    const shotUrl = `${machineUrl}/screenshot?t=${Date.now()}`;
+
+                    tr.innerHTML = `
+                        <td class="${statusCls}">${statusTxt}</td>
+                        <td>${escapeHtml(c.domain)}</td>
+                        <td>${escapeHtml(c.machine)}</td>
+                        <td>${escapeHtml(c.ip)}</td>
+                        <td>${escapeHtml(c.user)}</td>
+                        <td class="time">${relativeTime(c.lastActivityUtc)}</td>
+                        <td>
+                            <button data-action="request" data-domain="${escapeHtml(c.domain)}" data-machine="${escapeHtml(c.machine)}">
+                                Запросить скриншот
+                            </button>
+                            ${c.hasScreenshot
+                                ? `<img class="screenshot-preview" src="${shotUrl}" alt="screenshot" />`
+                                : '<div class="time">нет скриншота</div>'}
+                        </td>
+                    `;
+                    tbody.appendChild(tr);
+                }
+            } catch (e) {
+                tbody.innerHTML = `<tr><td colspan="7" class="empty">Ошибка загрузки: ${escapeHtml(e.message)}</td></tr>`;
+            }
+        }
+
+        // Делегирование клика — работает и для перерисованных кнопок
+        tbody.addEventListener('click', async (e) => {
+            const btn = e.target.closest('button[data-action="request"]');
+            if (!btn) return;
+
+            const domain = btn.dataset.domain;
+            const machine = btn.dataset.machine;
+            btn.disabled = true;
+            btn.textContent = 'Запрошено...';
+
+            try {
+                await fetch(
+                    `/api/clients/${encodeURIComponent(domain)}/${encodeURIComponent(machine)}/screenshot/request`,
+                    { method: 'POST' }
+                );
+            } catch { /* ignore */ }
+
+            // Подождём 3 сек и обновим — клиент должен успеть прислать BMP
+            setTimeout(load, 3000);
+        });
+
+        load();
+        setInterval(load, 5000);
+    </script>
+</body>
+</html>

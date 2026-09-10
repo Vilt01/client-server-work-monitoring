@@ -33,3 +33,5 @@ C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.
 C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.Server\obj\Debug\net10.0\EmployeeMonitor.Server.genruntimeconfig.cache
 C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.Server\obj\Debug\net10.0\ref\EmployeeMonitor.Server.dll
 C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.Server\obj\Debug\net10.0\EmployeeMonitor.Server.sourcelink.json
+C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.Server\bin\Debug\net10.0\EmployeeMonitor.Server.staticwebassets.runtime.json
+C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.Server\obj\Debug\net10.0\compressed\xzq4o1jutp-{0}-6qvbk50vvv-6qvbk50vvv.gz
