@@ -32,3 +32,4 @@ C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.
 C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.Server\obj\Debug\net10.0\EmployeeMonitor.Server.pdb
 C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.Server\obj\Debug\net10.0\EmployeeMonitor.Server.genruntimeconfig.cache
 C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.Server\obj\Debug\net10.0\ref\EmployeeMonitor.Server.dll
+C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.Server\obj\Debug\net10.0\EmployeeMonitor.Server.sourcelink.json
