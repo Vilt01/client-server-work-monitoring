@@ -25,7 +25,6 @@ C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.
 C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.Server\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.Server\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.Server\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.Server\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.Server\obj\Debug\net10.0\Employee.260F69BB.Up2Date
 C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.Server\obj\Debug\net10.0\EmployeeMonitor.Server.dll
 C:\Users\yungl\OneDrive\Рабочий стол\EmployeeMonitor\EmployeeMonitor.Server\obj\Debug\net10.0\refint\EmployeeMonitor.Server.dll
