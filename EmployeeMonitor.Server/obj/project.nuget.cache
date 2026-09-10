@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "KEBogZxJohQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yungl\\OneDrive\\Рабочий стол\\EmployeeMonitor\\EmployeeMonitor.Server\\EmployeeMonitor.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yungl\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.6\\microsoft.aspnetcore.openapi.10.0.6.nupkg.sha512",
+    "C:\\Users\\yungl\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "У пакета \"Microsoft.OpenApi\" 2.0.0 есть известная уязвимость https://github.com/advisories/GHSA-v5pm-xwqc-g5wc (уровень серьезности: высокий уровень)",
+      "projectPath": "C:\\Users\\yungl\\OneDrive\\Рабочий стол\\EmployeeMonitor\\EmployeeMonitor.Server\\EmployeeMonitor.Server.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\yungl\\OneDrive\\Рабочий стол\\EmployeeMonitor\\EmployeeMonitor.Server\\EmployeeMonitor.Server.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

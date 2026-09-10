@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="EmployeeMonitor.Client/EmployeeMonitor.Client.csproj" />
+  <Project Path="EmployeeMonitor.Server/EmployeeMonitor.Server.csproj" />
+</Solution>
