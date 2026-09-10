@@ -14,21 +14,24 @@ internal static class Program
             var settings = LoadSettings();
             Logger.Info($"Client starting. ServerUrl={settings.ServerUrl}, PingInterval={settings.PingIntervalSeconds}s");
 
+            // Ручной DI
             var exePath = Environment.ProcessPath ?? "EmployeeMonitor.Client.exe";
             IStartupService startup = new StartupService(exePath);
-            startup.EnsureRegistered();
-
-            // Временная проверка пинга
             ISystemInfoService systemInfo = new SystemInfoService();
             IServerApiClient api = new ServerApiClient(settings.ServerUrl);
+            IMonitoringService monitoring = new MonitoringService(api, systemInfo, settings);
 
-            var me = systemInfo.GetCurrent();
-            Logger.Info($"Me: {me.Domain}\\{me.Machine} ip={me.Ip} user={me.User}");
+            startup.EnsureRegistered();
 
-            var response = await api.PingAsync(me, CancellationToken.None);
-            Logger.Info($"Ping response: {response.Command}");
+            // Обработка Ctrl+C и закрытия процесса
+            using var cts = new CancellationTokenSource();
+            Console.CancelKeyPress += (_, e) =>
+            {
+                e.Cancel = true;
+                cts.Cancel();
+            };
 
-            await Task.CompletedTask;
+            await monitoring.RunAsync(cts.Token);
         }
         catch (Exception ex)
         {
